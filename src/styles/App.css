@@ -1,0 +1,58 @@
+body {
+  text-align: center;
+  background-color: #282c34;
+  font-family: "Montserrat", sans-serif;
+  color: white;
+}
+
+h1 {
+  color: #61dafb;
+  font-size: 3.5rem;
+  font-weight: 800;
+}
+
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+input,
+button {
+  background-color: #fff;
+  color: #282c34;
+  outline: none;
+
+  border: none;
+  border-radius: 20px;
+  height: 1.6rem;
+  width: 50rem;
+  padding: 0.5em;
+  margin: 0.5rem 3rem;
+
+  text-align: center;
+  font-size: 16px;
+  font-weight: 800;
+}
+
+button {
+  display: flex;
+  width: 25rem;
+  height: 2.5rem;
+  vertical-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.todoBtn {
+  width: 2rem;
+  height: 1rem;
+}
+
+button:hover {
+  transform: scale(1.05);
+  background-color: lightcoral;
+  color: #fff;
+}
